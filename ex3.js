@@ -56,7 +56,7 @@ if (elem) {
   console.log("Element introuvable");
 }
 
-let tabSup = tabNumbers.filter((element) => element >= moyenne);
+let tabSup = tabNumbers.filter((a) => a >= moyenne);
 let tabInf = tabNumbers.filter((element) => element < moyenne);
 console.log(tabSup, tabInf);
 
